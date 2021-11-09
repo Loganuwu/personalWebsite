@@ -1,0 +1,26 @@
+.container{
+    background-color: #233554;
+    
+}
+
+.mainBody{
+    background-color: #112240;
+    
+}
+
+.name{
+    color: #64ffda;
+    font-size: xx-large;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.mainText{
+    color: #64ffda;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    
+}
+
+.bottomText{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    color: #ccd6f6;
+}
