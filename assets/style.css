@@ -22,6 +22,7 @@
 .mainText{
     color: #64ffda;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-weight: bold;
     
     /* This is the class used for all the of the main body text I will be using and the font style I got from google fonts.  */
 }
