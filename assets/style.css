@@ -1,5 +1,6 @@
 .container{
     background-color: #112240;
+    color: #64ffda;
 
     /* This is the container for the entire website, it is the slightly lighter shade of navy blue background */
     position: relative;
@@ -67,4 +68,9 @@
     -moz-transition: ease-out 0.3s;
     -ms-transition: ease-out 0.3s;
     -o-transition: ease-out 0.3s;
+}
+
+#gitBtn{
+    /* display: flex; */
+    justify-content: center;
 }
