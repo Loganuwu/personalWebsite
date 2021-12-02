@@ -32,5 +32,10 @@
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
     color: #ccd6f6;
     position: relative;
+    padding-right: 20px;
     /* this is the class for the text at the bottom of the page that says my name and the date updated, it is like the copyright looking coloring and style.  */
+}
+
+#instagram{
+    width: 20px;
 }
