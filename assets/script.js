@@ -51,11 +51,11 @@ function socialNavScript() {
 }
 
 function gitClick() {
-    document.getElementById("gitIcon").style.width = "150px";
+    document.getElementById("gitIcon").style.width = "140px";
 }
 
 function gitClickOut() {
-    document.getElementById("gitIcon").style.width = "120px";
+    document.getElementById("gitIcon").style.width = "110px";
 }
 
 function instagramClick() {
