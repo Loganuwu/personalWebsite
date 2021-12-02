@@ -2,12 +2,12 @@
     background-color: #112240;
 
     /* This is the container for the entire website, it is the slightly lighter shade of navy blue background */
-    
+    position: relative;
 }
 
 .mainBody{
     background-color: #152541;
-    
+    position: relative;
     /* This is the area where the text is, it is a body inside the container to display a difference between the text and background colors. it is the Darker blue  */
 }
 
@@ -15,7 +15,7 @@
     color: #64ffda;
     font-size: xx-large;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
-
+    position: relative;
     /* This is the font sizing and coloring for just my name that is inside the black box */
 }
 
@@ -23,6 +23,7 @@
     color: #64ffda;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
     font-weight: bold;
+    position: relative;
     
     /* This is the class used for all the of the main body text I will be using and the font style I got from google fonts.  */
 }
@@ -30,6 +31,6 @@
 .bottomText{
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
     color: #ccd6f6;
-
+    position: relative;
     /* this is the class for the text at the bottom of the page that says my name and the date updated, it is like the copyright looking coloring and style.  */
 }
