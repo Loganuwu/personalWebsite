@@ -30,6 +30,37 @@ function contactNavScript() {
 
 
 
+function gitClick() {
+    document.getElementById("gitIcon").style.width = "160px";
+}
+
+function gitClickOut() {
+    document.getElementById("gitIcon").style.width = "120px";
+}
+
+function instagramClick() {
+    document.getElementById("instagramIcon").style.width = "60px";
+}
+function instagramClickOut() {
+    document.getElementById("instagramIcon").style.width = "40px";
+}
+function linkedinClick() {
+    document.getElementById("linkedinIcon").style.width = "60px";
+}
+function linkedinClickOut() {
+    document.getElementById("linkedinIcon").style.width = "40px";
+}
+
+
+
 document.getElementById("projectNav").addEventListener("click", projectNavScript)
 document.getElementById("resumeNav").addEventListener("click", resumeNavScript)
 document.getElementById("contactNav").addEventListener("click", contactNavScript)
+
+
+document.getElementById("gitIcon").addEventListener("mouseover",gitClick)
+document.getElementById("gitIcon").addEventListener("mouseout",gitClickOut)
+document.getElementById("instagramIcon").addEventListener("mouseover",instagramClick)
+document.getElementById("instagramIcon").addEventListener("mouseout",instagramClickOut)
+document.getElementById("linkedinIcon").addEventListener("mouseover",linkedinClick)
+document.getElementById("linkedinIcon").addEventListener("mouseout",linkedinClickOut)
