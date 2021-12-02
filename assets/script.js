@@ -28,10 +28,20 @@ function contactNavScript() {
     
 }
 
-
+function socialNavScript() {
+    document.getElementById("socialNav").style.color = "red"
+    document.getElementById("scrollspySocial").style.color = "red"
+    document.getElementById("scrollspySocial").style.fontSize = "30px";
+    setTimeout(() => {
+        document.getElementById("socialNav").style.color = "white"
+        document.getElementById("scrollspySocial").style.color = "grey"
+        document.getElementById("scrollspySocial").style.fontSize = "16px";
+    }, 4000);
+    
+}
 
 function gitClick() {
-    document.getElementById("gitIcon").style.width = "160px";
+    document.getElementById("gitIcon").style.width = "150px";
 }
 
 function gitClickOut() {
@@ -45,10 +55,10 @@ function instagramClickOut() {
     document.getElementById("instagramIcon").style.width = "40px";
 }
 function linkedinClick() {
-    document.getElementById("linkedinIcon").style.width = "60px";
+    document.getElementById("linkedinIcon").style.width = "70px";
 }
 function linkedinClickOut() {
-    document.getElementById("linkedinIcon").style.width = "40px";
+    document.getElementById("linkedinIcon").style.width = "50px";
 }
 
 
@@ -56,6 +66,7 @@ function linkedinClickOut() {
 document.getElementById("projectNav").addEventListener("click", projectNavScript)
 document.getElementById("resumeNav").addEventListener("click", resumeNavScript)
 document.getElementById("contactNav").addEventListener("click", contactNavScript)
+document.getElementById("socialNav").addEventListener("click", socialNavScript)
 
 
 document.getElementById("gitIcon").addEventListener("mouseover",gitClick)
