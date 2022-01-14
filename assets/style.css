@@ -101,6 +101,14 @@ border-right: 3px solid rgba(0, 0, 0, 0.123);
 border-bottom: 3px solid rgba(0, 0, 0, 0.123);
 }
 
+.aboutmeBox{
+    border-top: 3px solid rgba(0, 0, 0, 0.123);
+    border-left: 3px solid rgba(0, 0, 0, 0.123);
+    border-right: 3px solid rgba(0, 0, 0, 0.123);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.123);
+    font-size: 16px;
+    }
+
 #pictureBox{
     background-color: #0000003f;
 }
@@ -109,7 +117,10 @@ border-bottom: 3px solid rgba(0, 0, 0, 0.123);
     background-color: #0000003f;
 }
 
-
+.btn-success{
+    background-color: #64ffda;
+    color: black;
+}
 
 .nav-item{
     color: #64ffda; 

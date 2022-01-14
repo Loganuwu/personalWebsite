@@ -50,6 +50,18 @@ function socialNavScript() {
     
 }
 
+function AboutMeNavScript() {
+    document.getElementById("aboutMeNav").style.color = "red"
+    document.getElementById("scrollspyAboutMe").style.color = "red"
+    document.getElementById("scrollspyAboutMe").style.fontSize = "30px";
+    setTimeout(() => {
+        document.getElementById("aboutMeNav").style.color = "white"
+        document.getElementById("scrollspyAboutMe").style.color = "#64ffda"
+        document.getElementById("scrollspyAboutMe").style.fontSize = "16px";
+    }, 4000);
+    
+}
+
 function gitClick() {
     document.getElementById("gitIcon").style.width = "140px";
 }
@@ -78,6 +90,7 @@ document.getElementById("educationNav").addEventListener("click", educationNavSc
 document.getElementById("resumeNav").addEventListener("click", resumeNavScript)
 document.getElementById("contactNav").addEventListener("click", contactNavScript)
 document.getElementById("socialNav").addEventListener("click", socialNavScript)
+document.getElementById("aboutMeNav").addEventListener("click", AboutMeNavScript)
 
 
 
