@@ -33,7 +33,8 @@
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
     color: #ccd6f6;
     position: relative;
-    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
     /* this is the class for the text at the bottom of the page that says my name and the date updated, it is like the copyright looking coloring and style.  */
 }
 
@@ -73,4 +74,29 @@
 #gitBtn{
     /* display: flex; */
     justify-content: center;
+}
+
+#projectBox{
+border-top: 3px solid rgba(0, 0, 0, 0.123);
+border-left: 3px solid rgba(0, 0, 0, 0.123);
+border-right: 3px solid rgba(0, 0, 0, 0.123);
+border-bottom: 3px solid rgba(0, 0, 0, 0.123);
+}
+#educationBox{
+border-top: 3px solid rgba(0, 0, 0, 0.123);
+border-left: 3px solid rgba(0, 0, 0, 0.123);
+border-right: 3px solid rgba(0, 0, 0, 0.123);
+border-bottom: 3px solid rgba(0, 0, 0, 0.123);
+}
+#resumeBox{
+border-top: 3px solid rgba(0, 0, 0, 0.123);
+border-left: 3px solid rgba(0, 0, 0, 0.123);
+border-right: 3px solid rgba(0, 0, 0, 0.123);
+border-bottom: 3px solid rgba(0, 0, 0, 0.123);
+}
+#contactBox{
+border-top: 3px solid rgba(0, 0, 0, 0.123);
+border-left: 3px solid rgba(0, 0, 0, 0.123);
+border-right: 3px solid rgba(0, 0, 0, 0.123);
+border-bottom: 3px solid rgba(0, 0, 0, 0.123);
 }
