@@ -100,3 +100,21 @@ border-left: 3px solid rgba(0, 0, 0, 0.123);
 border-right: 3px solid rgba(0, 0, 0, 0.123);
 border-bottom: 3px solid rgba(0, 0, 0, 0.123);
 }
+
+#pictureBox{
+    background-color: #0000003f;
+}
+
+.navbar{
+    background-color: #0000003f;
+}
+
+
+
+.nav-item{
+    color: #64ffda; 
+}
+
+.navbar-brand{
+    color: #005eff;
+}
