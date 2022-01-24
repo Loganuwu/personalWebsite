@@ -133,3 +133,8 @@ border-bottom: 3px solid rgba(0, 0, 0, 0.123);
 .navbar-brand{
     color: #005eff;
 }
+
+.toggleColor{
+    background-color: #64ffda;
+
+}
