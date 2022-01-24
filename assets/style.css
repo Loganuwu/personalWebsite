@@ -121,6 +121,10 @@ border-bottom: 3px solid rgba(0, 0, 0, 0.123);
     background-color: #64ffda;
     color: black;
 }
+.btn-success:hover{
+    background-color: #0000003f;
+    color: black;
+}
 
 .nav-item{
     color: #64ffda; 
